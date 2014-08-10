@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility challenges", "codility challenges\codility challenges.csproj", "{30D162F4-502D-433B-97DE-8961DE7ACC40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jail break", "Jail break\Jail break.csproj", "{7687724E-3A2D-4065-ADFF-72E81E43F339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{30D162F4-502D-433B-97DE-8961DE7ACC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D162F4-502D-433B-97DE-8961DE7ACC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D162F4-502D-433B-97DE-8961DE7ACC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7687724E-3A2D-4065-ADFF-72E81E43F339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7687724E-3A2D-4065-ADFF-72E81E43F339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7687724E-3A2D-4065-ADFF-72E81E43F339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7687724E-3A2D-4065-ADFF-72E81E43F339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
