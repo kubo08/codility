@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility challenges", "codility challenges\codility challenges.csproj", "{30D162F4-502D-433B-97DE-8961DE7ACC40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson 1 time complexity", "codility challenges\lesson 1 time complexity.csproj", "{30D162F4-502D-433B-97DE-8961DE7ACC40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jail break", "Jail break\Jail break.csproj", "{7687724E-3A2D-4065-ADFF-72E81E43F339}"
 EndProject
