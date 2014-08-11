@@ -5,13 +5,13 @@ namespace lesson_2_Counting_Elements
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             PermCheck perm = new PermCheck();
 
             Stopwatch timer = new Stopwatch();
             timer.Start();
-            var test = perm.solution(new[] {4, 1, 2});
+            var test = perm.solution(new[] { 4, 1, 2 });
             timer.Stop();
             Console.WriteLine("perm check: " + test);
             Console.WriteLine(timer.Elapsed);
@@ -26,6 +26,7 @@ namespace lesson_2_Counting_Elements
                 A[i] = 100000 - i;
             }
             timer.Start();
+
             test = frog.solution(100000, A);
             timer.Stop();
             Console.WriteLine("frog jump: " + test);
