@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FrogRiverJump.cs" />
+    <Compile Include="MaxCounter.cs" />
+    <Compile Include="MissingInteger.cs" />
     <Compile Include="PermCheck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
