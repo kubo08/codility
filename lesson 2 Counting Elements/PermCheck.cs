@@ -4,7 +4,7 @@ namespace lesson_2_Counting_Elements
 {
     class PermCheck
     {
-        public int solution(int[] A)
+        public int solution(int[] A)            //100%
         {
             // write your code in C# 5.0 with .NET 4.5 (Mono)
             int[] IsElement = new int[A.Length];

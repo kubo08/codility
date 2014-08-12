@@ -5,7 +5,7 @@ namespace lesson_2_Counting_Elements
 {
     internal class MissingInteger
     {
-        public int solution(int[] A)
+        public int solution(int[] A)                //100%
         {
             List<int> list = A.Distinct().ToList();
             list = list.Where(t => t > 0).ToList();

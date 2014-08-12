@@ -7,7 +7,7 @@ namespace lesson_2_Counting_Elements
 {
     class FrogRiverJump
     {
-        public int solution(int X, int[] A)
+        public int solution(int X, int[] A)     //100%
         {
             //List<int> bridge = A.Distinct().ToList();     //povodne
             //if (bridge.Count < X)

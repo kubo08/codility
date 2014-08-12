@@ -2,7 +2,7 @@
 {
     class MaxCounter
     {
-        public int[] solution(int N, int[] A)
+        public int[] solution(int N, int[] A)           //slaby performance
         {
             int[] result= new int[N];
             int max = 0;
