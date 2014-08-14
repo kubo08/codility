@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson 1 time complexity", "codility challenges\lesson 1 time complexity.csproj", "{30D162F4-502D-433B-97DE-8961DE7ACC40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jail break", "Jail break\Jail break.csproj", "{7687724E-3A2D-4065-ADFF-72E81E43F339}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson 2 Counting Elements", "lesson 2 Counting Elements\lesson 2 Counting Elements.csproj", "{249A4BCB-E1F1-48F6-B1A0-0310E7477E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 3 Prefix Sums", "Lesson 3 Prefix Sums\Lesson 3 Prefix Sums.csproj", "{7BE1B431-0157-4412-9725-1B521EE47A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{249A4BCB-E1F1-48F6-B1A0-0310E7477E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249A4BCB-E1F1-48F6-B1A0-0310E7477E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249A4BCB-E1F1-48F6-B1A0-0310E7477E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
