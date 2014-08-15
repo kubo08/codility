@@ -2,7 +2,7 @@
 {
     class MinAvgTwoSlice
     {
-        public int solution(int[] A)
+        public int solution(int[] A)                //100%
         {
             // write your code in C# 5.0 with .NET 4.5 (Mono)
             int N = A.Length;
@@ -18,7 +18,7 @@
                     start = i;
                     minAverage = (double)(A[i] + A[i + 1]) / 2;
                 }
-                if ((A[i] < minAverage ))
+                if ((A[i] <= minAverage ))
                 {
                         actualStart = i;
                         actualAverage = (double) (A[i] + A[i + 1])/2;
@@ -26,8 +26,8 @@
                 }
                 else if (actualAverage != -1)
                 {
-                    count++;
-                    actualAverage = ((actualAverage*count) + A[i + 1])/count;
+                    ;
+                    actualAverage = ((actualAverage*count) + A[i + 1])/++count;
                     if (actualAverage < minAverage)
                     {
                         minAverage = actualAverage;

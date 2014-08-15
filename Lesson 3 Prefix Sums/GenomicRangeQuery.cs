@@ -4,8 +4,8 @@ namespace Lesson_3_Prefix_Sums
 {
     class GenomicRangeQuery
     {
-        public int[] solution(string S, int[] P, int[] Q)       //62% korektne, ale prrformance testy na 0%
-        {
+        public int[] solution(string S, int[] P, int[] Q)       //62% korektne, ale prrformance testy na 0%     
+        {                                                       //todo: improve performace
             // write your code in C# 5.0 with .NET 4.5 (Mono)
             int length = P.Length;
             int[] result = new int[length];

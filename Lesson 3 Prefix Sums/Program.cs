@@ -39,7 +39,7 @@ namespace Lesson_3_Prefix_Sums
             MinAvgTwoSlice avg = new MinAvgTwoSlice();
 
             timer.Start();
-            test = avg.solution(new []{4,2,2,5,1,5,8});
+            test = avg.solution(new []{4258,4258,2000,6515,1,50226,10325});
             timer.Stop();
             Console.Write("minimal average start: " + test);
             Console.WriteLine();
