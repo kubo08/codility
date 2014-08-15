@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson 2 Counting Elements"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 3 Prefix Sums", "Lesson 3 Prefix Sums\Lesson 3 Prefix Sums.csproj", "{7BE1B431-0157-4412-9725-1B521EE47A6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 4 Sorting", "Lesson 4 Sorting\Lesson 4 Sorting.csproj", "{B8CA9B72-3EFC-48E5-A28B-307C27A00855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE1B431-0157-4412-9725-1B521EE47A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CA9B72-3EFC-48E5-A28B-307C27A00855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CA9B72-3EFC-48E5-A28B-307C27A00855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CA9B72-3EFC-48E5-A28B-307C27A00855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CA9B72-3EFC-48E5-A28B-307C27A00855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
