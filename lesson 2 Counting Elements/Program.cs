@@ -36,7 +36,7 @@ namespace lesson_2_Counting_Elements
             timer.Reset();
 
             MaxCounter counters = new MaxCounter();
-            int[] numbers = new[] {3, 4, 4, 6, 1, 4, 4};
+            int[] numbers = new[] {3, 4, 4, 6, 1, 4, 4,6,1,1,1,2,6};
             timer.Start();
             var result = counters.solution(5, numbers);
             timer.Stop();
