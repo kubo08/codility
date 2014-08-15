@@ -35,6 +35,28 @@ namespace Lesson_3_Prefix_Sums
             Console.WriteLine(timer.Elapsed);
 
             timer.Reset();
+
+            MinAvgTwoSlice avg = new MinAvgTwoSlice();
+
+            timer.Start();
+            test = avg.solution(new []{4,2,2,5,1,5,8});
+            timer.Stop();
+            Console.Write("minimal average start: " + test);
+            Console.WriteLine();
+            Console.WriteLine(timer.Elapsed);
+
+            timer.Reset();
+
+            CountDiv div = new CountDiv();
+
+            timer.Start();
+            test = div.solution(6, 11, 2);
+            timer.Stop();
+            Console.Write("num of divs: " + test);
+            Console.WriteLine();
+            Console.WriteLine(timer.Elapsed);
+
+            timer.Reset();
         }
     }
 }
